@@ -1,0 +1,33 @@
+{
+  "name": "mastermind-react",
+  "version": "1.0.0",
+  "description": "A movie list made in react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel client --out-dir ./public/compiled --presets=react,env --watch" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelDimitras/movie-list.git"
+  },
+  "keywords": [
+    "react",
+    "mastermind"
+  ],
+  "author": "Michael Dimitras",
+  "license": "MIT",
+  "bugs": {
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}

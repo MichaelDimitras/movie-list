@@ -1,0 +1,19 @@
+body {
+  font-family: monospace;
+  font-size: 15pt;
+}
+
+.listArea {
+  border: 1px solid black;
+}
+
+.listHeader {
+  background-color: #DDD;
+}
+
+.listItem {
+  height: 40px;
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-left: 5px;
+}
